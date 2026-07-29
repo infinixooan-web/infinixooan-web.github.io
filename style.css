@@ -68,6 +68,26 @@ main {
 
 .card h2 { margin-top: 0; }
 
+.card--app {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+  border-color: #3a4260;
+  transition: transform 0.15s, border-color 0.15s, background 0.15s;
+}
+.card--app:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  background: #1f2436;
+}
+.card--app p { color: var(--muted); }
+.card__cta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .links { list-style: none; padding: 0; margin: 0; }
 
 .links a {
